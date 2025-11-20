@@ -33,6 +33,13 @@ export const siteConfig = {
       link: "https://apps.apple.com/in/app/classter/id1485845874",
       skills: ["Flutter", "REST APIs", "BLoC", "Git", "iOs"],
     },
+    {
+      name: "EstonEdge",
+      description:
+        "A smart-home control app that lets you manage your lighting, climate, security, and more — anytime, anywhere.",
+      link: "https://apps.apple.com/in/app/estonedge/id6605929516",
+      skills: ["Flutter", "REST APIs", "Provider", "Native APIs and Permissions", "MQTT", "AWS", "Git", "iOs"],
+    },
   ],
   experience: [
     {
