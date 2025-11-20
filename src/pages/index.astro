@@ -24,6 +24,9 @@ import "../styles/global.css";
       rel="stylesheet"
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
+    <!-- Google Analytics: load gtag.js then local helper (keeps Astro/TS from type-checking inline JS) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6HZ5694SFQ"></script>
+    <script src="./public/analytics.js" is:inline></script>
   </head>
   <body>
     <Header />
